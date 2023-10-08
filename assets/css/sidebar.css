@@ -1,0 +1,44 @@
+    /* Tambahkan CSS kustom untuk sidebar */
+    .sidebar {
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #0079FF;
+        padding-top: 20px;
+    }
+    
+    .sidebar a {
+        padding: 15px 25px;
+        text-align:justify;
+        text-decoration: none;
+        font-size: 20px;
+        color: #F6FA70;
+        font-weight: bold;
+        display: block;
+        transition: background-color 0.3s;
+    }
+    .sidebar p {
+        padding: 10px 15px;
+        text-align:justify;
+        text-decoration: none;
+        font-size: 15px;
+        color: #F6FA70;
+        font-weight: bold;
+        display: block;
+        transition: background-color 0.3s;
+    }
+    
+    .sidebar a:hover {
+        background-color: #F6FA70;
+    }
+    
+    /* Tambahkan CSS kustom untuk konten halaman */
+    .page-content {
+        margin-left: 250px;
+        padding: 15px;}
+
+.sidebar a .list-nama{
+    color: #F6FA70;
+}
